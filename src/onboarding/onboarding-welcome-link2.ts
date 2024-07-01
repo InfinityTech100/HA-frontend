@@ -4,8 +4,8 @@ import "../components/ha-card";
 import "../components/ha-ripple";
 import "../components/ha-svg-icon";
 
-@customElement("onboarding-welcome-link")
-class OnboardingWelcomeLink extends LitElement {
+@customElement("onboarding-welcome-link2")
+class OnboardingWelcomeLink2 extends LitElement {
   @property() public label!: string;
 
   @property() public iconPath!: string;
@@ -68,6 +68,6 @@ class OnboardingWelcomeLink extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    "onboarding-welcome-link2": OnboardingWelcomeLink;
+    "onboarding-welcome-link2": OnboardingWelcomeLink2;
   }
 }
